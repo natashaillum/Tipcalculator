@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/15a6eaf0f9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-calculator">
+      <header>
+        <div class="profile-img">
+          <img src="./images/Ellipse 1.png" alt="An avatar of a girl" />
+        </div>
+        <h3>Hi Fiona</h3>
+        <ul>
+          <li>
+            <a href="#" class="hamburger"><i class="fa-solid fa-bars"></i></a>
+          </li>
+        </ul>
+      </header>
+      <div class="total-container">
+        <p class="total-title">Total Tip in USD</p>
+        <p class="total-amount">$</p>
+      </div>
+      <div class="bill-amount">
+        <p>Your Bill Amount</p>
+        <form>
+          <input id="bill-amount-input" type="text" placeholder="" />
+          <button class="btn" type="button">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </form>
+      </div>
+      <div class="tip-amount">
+        <button class="ten-p">10%</button>
+        <button class="fifteen-p">15%</button>
+        <button class="twenty-p">20%</button>
+      </div>
+      <button class="btn-tip">Calculate Tip</button>
+      <footer>DESIGNED BY NATASHA ILLUM</footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
